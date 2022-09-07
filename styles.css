@@ -60,13 +60,39 @@ nav .nav .links div {
   margin-bottom: 1.25rem;
 }
 
-nav .nav .links .arrow {
-  margin-left: 0.5rem;
+nav .nav .links div p {
+  display: flex;
 }
 
-nav .nav .links .features-list,
-nav .nav .links .company-list {
+nav .nav .links .arrow {
+  margin-left: 0.5rem;
+  background-image: url('./images/icon-arrow-down.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1rem;
+  height: 1rem;
+  display: block;
+}
+
+nav .nav .links .list {
+  overflow: hidden;
+  height: 0;
+}
+
+nav .nav .links .list div:last-child {
+  margin: 0;
+}
+
+nav .nav .links .features.open .arrow,
+nav .nav .links .company.open .arrow {
+  background-image: url('./images/icon-arrow-up.svg');
+}
+
+nav .nav .links .features.open .list,
+nav .nav .links .company.open .list {
+  height: 100%;
   padding: 1.5rem 0 0 1.5rem;
+  transition: all 0.3s ease;
 }
 
 nav .nav .authentication {
