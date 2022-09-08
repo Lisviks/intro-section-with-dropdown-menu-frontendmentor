@@ -282,7 +282,6 @@ main .clients img {
     background-image: url('./images/image-hero-desktop.png');
     background-size: contain;
     background-repeat: no-repeat;
-    /* width: 90%; */
     height: 44rem;
   }
 
