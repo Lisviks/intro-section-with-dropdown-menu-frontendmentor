@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL]()
+- Solution URL: [URL](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-menu-xU0MgE96uT)
 - Live Site URL: [URL](https://lisviks.github.io/intro-section-with-dropdown-menu-frontendmentor/)
 
 ## My process
